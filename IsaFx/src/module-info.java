@@ -1,0 +1,6 @@
+module IsaFx {
+    requires javafx.fxml;
+    requires javafx.controls;
+
+    opens sample;
+}
