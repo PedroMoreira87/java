@@ -1,4 +1,4 @@
-package aula04.ex02;
+package resolucao_de_problemas_estruturados_em_computacao.aula04.ex02;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package aula11_arvore_binaria_avl;
+package resolucao_de_problemas_estruturados_em_computacao.aula11_arvore_binaria_avl;
 
 import java.io.PrintStream;
 import java.util.ArrayList;

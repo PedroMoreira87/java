@@ -1,4 +1,4 @@
-package aula09_2;
+package programacao_orientada_a_objetos.aula09_2;
 
 public class Arquivo {
     String nome;

@@ -1,28 +1,28 @@
-package aula09_1;
+package programacao_orientada_a_objetos.aula09_1;
 
 public class Veterinario {
 	
 	public void examinarAnimal(Animal pet) {
-		// late binding -- ligação tardia
+		// late binding -- ligaï¿½ï¿½o tardia
 		pet.soar();
 	}
 	
 	public void examinarMamifero(Mamifero mani) {
 		if (mani instanceof Cao) {
 			Cao rex = (Cao)mani;
-			// early binding -- ligação precoce
+			// early binding -- ligaï¿½ï¿½o precoce
 			rex.latir();
 		}
 		
 		else if (mani instanceof Gato) {
 			Gato felix = (Gato)mani;
-			// early binding -- ligação precoce
+			// early binding -- ligaï¿½ï¿½o precoce
 			felix.miar();
 		}
 		
 		else if (mani instanceof Cavalo) {
 			Cavalo rui = (Cavalo) mani;
-			// early binding -- ligação precoce
+			// early binding -- ligaï¿½ï¿½o precoce
 			rui.relinchar();
 		}
 		

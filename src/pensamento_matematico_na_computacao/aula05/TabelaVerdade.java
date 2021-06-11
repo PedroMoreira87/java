@@ -1,4 +1,4 @@
-package aula05;
+package pensamento_matematico_na_computacao.aula05;
 
 public class TabelaVerdade {
 	private String[][] matriz = new String[5][8];

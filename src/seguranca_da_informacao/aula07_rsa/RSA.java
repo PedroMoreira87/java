@@ -1,4 +1,4 @@
-package aula07_rsa;
+package seguranca_da_informacao.aula07_rsa;
 
 import java.security.Key;
 import java.security.KeyPair;

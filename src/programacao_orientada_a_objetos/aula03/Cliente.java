@@ -1,4 +1,4 @@
-package aula03;
+package programacao_orientada_a_objetos.aula03;
 
 import java.util.Scanner;
 

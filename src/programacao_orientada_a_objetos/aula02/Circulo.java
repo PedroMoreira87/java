@@ -1,4 +1,4 @@
-package aula02;
+package programacao_orientada_a_objetos.aula02;
 
 public class Circulo {
 	private static double PI = 3.141516;

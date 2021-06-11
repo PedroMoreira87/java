@@ -1,4 +1,4 @@
-package aula09_1;
+package programacao_orientada_a_objetos.aula09_1;
 
 public class Gato extends Mamifero {
 

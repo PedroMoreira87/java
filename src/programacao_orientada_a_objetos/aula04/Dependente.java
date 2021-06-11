@@ -1,4 +1,4 @@
-package aula04;
+package programacao_orientada_a_objetos.aula04;
 
 public class Dependente {
     private String nome;

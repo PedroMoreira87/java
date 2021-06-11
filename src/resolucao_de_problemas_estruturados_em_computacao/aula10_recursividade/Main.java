@@ -1,4 +1,4 @@
-package aula10_recursividade;
+package resolucao_de_problemas_estruturados_em_computacao.aula10_recursividade;
 
 public class Main {
     public static void main(String[] args) {

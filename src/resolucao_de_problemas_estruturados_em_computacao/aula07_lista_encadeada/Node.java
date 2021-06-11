@@ -1,4 +1,4 @@
-package aula07_lista_encadeada;
+package resolucao_de_problemas_estruturados_em_computacao.aula07_lista_encadeada;
 
 public class Node {
 

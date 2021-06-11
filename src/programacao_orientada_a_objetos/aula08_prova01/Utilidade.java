@@ -1,4 +1,4 @@
-package aula08_prova01;
+package programacao_orientada_a_objetos.aula08_prova01;
 
 public class Utilidade {
 

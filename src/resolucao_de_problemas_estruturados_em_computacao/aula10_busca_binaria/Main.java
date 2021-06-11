@@ -1,4 +1,4 @@
-package aula10_busca_binaria;
+package resolucao_de_problemas_estruturados_em_computacao.aula10_busca_binaria;
 
 public class Main {
     public static void main(String[] args) {

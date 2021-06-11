@@ -1,4 +1,4 @@
-package aula11_arvore_binaria_avl;
+package resolucao_de_problemas_estruturados_em_computacao.aula11_arvore_binaria_avl;
 
 public class BinaryTree {
 
@@ -180,39 +180,6 @@ public class BinaryTree {
         node.setLeft(temp);
         return newRoot;
     }
-
-
-//    Node leftRotation(Node x) {
-//        Node y = x.getRight();
-//        Node T2 = y.getLeft();
-//
-//        // Perform rotation
-//        y.setLeft(x);
-//        x.setRight(T2);
-//
-//        //  Update heights
-//        height(x);
-//        height(y);
-//
-//        // Return new root
-//        return y;
-//    }
-//
-//    Node rightRotation(Node y) {
-//        Node x = y.getLeft();
-//        Node T2 = x.getRight();
-//
-//        // Perform rotation
-//        x.setRight(y);
-//        y.setLeft(T2);
-//
-//        // Update heights
-//        height(y);
-//        height(x);
-//
-//        // Return new root
-//        return x;
-//    }
 
 //    public void totalBalancing(Node node) {
 //        if (balancing(node) == 2) { // balancing node

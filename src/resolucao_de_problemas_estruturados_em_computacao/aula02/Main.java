@@ -1,4 +1,4 @@
-package aula02;
+package resolucao_de_problemas_estruturados_em_computacao.aula02;
 
 public class Main {
 

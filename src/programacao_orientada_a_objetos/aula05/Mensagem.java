@@ -1,4 +1,4 @@
-package aula05;
+package programacao_orientada_a_objetos.aula05;
 
 public class Mensagem {
 

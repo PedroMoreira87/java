@@ -1,4 +1,4 @@
-package projeto;
+package programacao_orientada_a_objetos.projeto;
 
 import javax.swing.*;
 import java.io.*;

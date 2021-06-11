@@ -1,4 +1,4 @@
-package aula05_pilha;
+package resolucao_de_problemas_estruturados_em_computacao.aula05_pilha;
 
 public class Expressao {
 

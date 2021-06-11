@@ -1,4 +1,4 @@
-package projeto;
+package programacao_orientada_a_objetos.projeto;
 
 public class Airsoft extends Arma{
     private String fps;

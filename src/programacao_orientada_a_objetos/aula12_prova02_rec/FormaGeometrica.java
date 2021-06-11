@@ -1,4 +1,4 @@
-package aula12_prova02_rec;
+package programacao_orientada_a_objetos.aula12_prova02_rec;
 
 public abstract class FormaGeometrica {
     private int cor;

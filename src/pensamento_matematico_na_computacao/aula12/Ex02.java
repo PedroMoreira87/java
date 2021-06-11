@@ -1,4 +1,4 @@
-package aula12;
+package pensamento_matematico_na_computacao.aula12;
 
 public class Ex02 {
     // 1, 1, 2, 3, 5, 8, ...

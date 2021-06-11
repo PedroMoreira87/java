@@ -1,4 +1,4 @@
-package aula04;
+package resolucao_de_problemas_estruturados_em_computacao.aula04;
 
 public class ex01 {
     public static void main(String[] args) {

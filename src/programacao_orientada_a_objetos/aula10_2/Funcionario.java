@@ -1,4 +1,4 @@
-package aula10_2;
+package programacao_orientada_a_objetos.aula10_2;
 
 abstract class Funcionario {
     private double salario_base;

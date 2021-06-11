@@ -1,4 +1,4 @@
-package aula06_cifradecesar;
+package seguranca_da_informacao.aula06_cifradecesar;
 
 public class Main {
 

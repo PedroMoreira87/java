@@ -1,4 +1,4 @@
-package aula06_trasbalho;
+package seguranca_da_informacao.aula06_trabalho;
 
 import java.math.BigInteger;
 import java.security.SecureRandom;

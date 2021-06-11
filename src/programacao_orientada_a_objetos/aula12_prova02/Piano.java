@@ -1,4 +1,4 @@
-package aula12_prova02;
+package programacao_orientada_a_objetos.aula12_prova02;
 
 public class Piano extends InstrumentoMusical {
     private int teclas;

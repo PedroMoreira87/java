@@ -1,4 +1,4 @@
-package aula10_trabalho;
+package seguranca_da_informacao.aula10_trabalho;
 
 import java.io.*;
 import java.math.BigInteger;

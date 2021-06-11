@@ -1,4 +1,4 @@
-package aula02;
+package pensamento_matematico_na_computacao.aula02;
 
 import java.util.Scanner;
 

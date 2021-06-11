@@ -1,4 +1,4 @@
-package aula10_trabalho;
+package seguranca_da_informacao.aula10_trabalho;
 
 /*Program coded by The Alchemist
  * This is a MD5 bruteforce script

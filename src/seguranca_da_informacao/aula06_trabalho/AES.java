@@ -1,4 +1,4 @@
-package aula06_trasbalho;
+package seguranca_da_informacao.aula06_trabalho;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;

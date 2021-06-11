@@ -1,4 +1,4 @@
-package aula10_3;
+package programacao_orientada_a_objetos.aula10_3;
 
 public class Batman extends Heroi implements Camuflagem {
 	public void atirar() {

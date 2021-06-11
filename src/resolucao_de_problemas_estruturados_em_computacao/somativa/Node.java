@@ -1,4 +1,4 @@
-package somativa;
+package resolucao_de_problemas_estruturados_em_computacao.somativa;
 
 public class Node {
 

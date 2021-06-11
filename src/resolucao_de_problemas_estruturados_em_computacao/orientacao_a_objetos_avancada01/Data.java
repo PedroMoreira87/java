@@ -1,7 +1,5 @@
-package orientação_a_objetos_avançada01;
+package resolucao_de_problemas_estruturados_em_computacao.orientacao_a_objetos_avancada01;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Scanner;
 
 public class Data {

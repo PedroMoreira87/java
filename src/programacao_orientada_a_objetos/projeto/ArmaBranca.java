@@ -1,4 +1,4 @@
-package projeto;
+package programacao_orientada_a_objetos.projeto;
 
 public class ArmaBranca extends Arma{
     private String material;

@@ -1,4 +1,4 @@
-package aula05;
+package pensamento_matematico_na_computacao.aula05;
 import java.util.Scanner;
 
 public class Principal {

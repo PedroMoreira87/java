@@ -1,4 +1,4 @@
-package aula01;
+package resolucao_de_problemas_estruturados_em_computacao.aula01;
 
 import java.util.ArrayList;
 

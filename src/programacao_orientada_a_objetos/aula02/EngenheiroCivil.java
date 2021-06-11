@@ -1,4 +1,4 @@
-package aula02;
+package programacao_orientada_a_objetos.aula02;
 
 class EngenheiroCivil {	
 	private static String nome = "Gustave Eiffel";

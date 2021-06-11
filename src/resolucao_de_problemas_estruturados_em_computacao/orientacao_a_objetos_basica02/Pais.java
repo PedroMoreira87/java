@@ -1,4 +1,4 @@
-package orientacao_a_objetos_basica02;
+package resolucao_de_problemas_estruturados_em_computacao.orientacao_a_objetos_basica02;
 
 import java.util.ArrayList;
 

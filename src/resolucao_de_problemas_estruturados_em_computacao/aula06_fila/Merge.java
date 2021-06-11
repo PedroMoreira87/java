@@ -1,4 +1,4 @@
-package aula06_fila;
+package resolucao_de_problemas_estruturados_em_computacao.aula06_fila;
 
 public class Merge {
 

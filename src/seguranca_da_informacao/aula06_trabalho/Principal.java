@@ -1,4 +1,4 @@
-package aula06_trasbalho;
+package seguranca_da_informacao.aula06_trabalho;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.IllegalBlockSizeException;

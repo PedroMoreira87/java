@@ -1,4 +1,4 @@
-package aula01;
+package programacao_orientada_a_objetos.aula01;
 
 public class Semaforo {
 	

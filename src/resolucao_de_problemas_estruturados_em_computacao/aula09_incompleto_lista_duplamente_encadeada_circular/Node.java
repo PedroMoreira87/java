@@ -1,4 +1,4 @@
-package aula09_incompleto_lista_duplamente_encadeada_circular;
+package resolucao_de_problemas_estruturados_em_computacao.aula09_incompleto_lista_duplamente_encadeada_circular;
 
 public class Node {
 

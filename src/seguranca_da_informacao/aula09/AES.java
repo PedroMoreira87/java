@@ -1,4 +1,4 @@
-package aula09;
+package seguranca_da_informacao.aula09;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
