@@ -41,7 +41,7 @@ public class PetStore {
     public void gravarAnimais() {
         ObjectOutputStream outputStream = null;
         try{
-            outputStream = new ObjectOutputStream(new FileOutputStream("animais.dat"));
+            outputStream = new ObjectOutputStream(new FileOutputStream("src/programacao_orientada_a_objetos/aula14/animais.dat"));
             for (Mamifero mani:mamiferos) {
                 outputStream.writeObject(mani);
             }
@@ -63,7 +63,7 @@ public class PetStore {
     public void recuperarAnimais(){
         ObjectInputStream inputStream = null;
         try {
-            inputStream = new ObjectInputStream (new FileInputStream ("animais.dat"));
+            inputStream = new ObjectInputStream (new FileInputStream ("src/programacao_orientada_a_objetos/aula14/animais.dat"));
             Object obj = null;
             while ((obj = inputStream.readObject ())!= null){
                 if (obj instanceof Gato){
