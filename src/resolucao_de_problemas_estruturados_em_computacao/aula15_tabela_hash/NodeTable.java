@@ -2,20 +2,20 @@ package resolucao_de_problemas_estruturados_em_computacao.aula15_tabela_hash;
 
 public class NodeTable {
 
-    private int head;
+    private int info;
     private LinkedList list;
 
     public NodeTable() {
-        this.head = -1;
+        this.info = -1;
         this.list = null;
     }
 
-    public int getHead() {
-        return head;
+    public int getInfo() {
+        return info;
     }
 
-    public void setHead(int head) {
-        this.head = head;
+    public void setInfo(int info) {
+        this.info = info;
     }
 
     public LinkedList getList() {

@@ -1,5 +1,7 @@
 package resolucao_de_problemas_estruturados_em_computacao.aula15_tabela_hash;
 
+import java.util.Random;
+
 public class HashTable {
 
     private int collision;
@@ -8,9 +10,8 @@ public class HashTable {
     public HashTable (int size) {
         collision = 0;
         table = new NodeTable[size];
-        for (int i = 0; i < table.length; i++) {
-            table[i] = new NodeTable();
-        }
+        fillTable();
+        random();
     }
 
     public NodeTable[] getTable() {
@@ -23,8 +24,8 @@ public class HashTable {
 
     public void insert(int key) {
         int hash = key % table.length;
-        if (table[hash].getHead() == -1)
-            table[hash].setHead(key);
+        if (table[hash].getInfo() == -1)
+            table[hash].setInfo(key);
         else {
             if (table[hash].getList() == null)
                 table[hash].setList(new LinkedList());
@@ -33,29 +34,37 @@ public class HashTable {
         }
     }
 
+    public void fillTable() {
+        for (int i = 0; i < table.length; i++) {
+            table[i] = new NodeTable();
+        }
+    }
+
     public void random() {
+        Random random = new Random();
         for (int i = 0; i < table.length * 0.9; i++) {
-            insert((int) Math.floor(Math.random() * (1000000 - 1 + 1) + 1));
+            insert(random.nextInt(1000001 - 0));
+        }
+    }
+
+    public void print() {
+        for (int i = 0; i < table.length; i++) {
+            System.out.print(i + ": ");
+            if (table[i].getList() == null)
+                System.out.println(table[i].getInfo());
+            else {
+                System.out.print(table[i].getInfo() + ", ");
+                table[i].getList().print();
+            }
         }
     }
 
     public boolean search(int key) {
         int hash = key % table.length;
-        NodeTable nt = table[hash];
-        if (nt.getHead() == key)
+        if (table[hash].getInfo() == key)
             return true;
-        else
-            if (nt.getList() != null)
-                return nt.getList().getNode(key) != null;
-            return false;
-    }
-
-    public void print() {
-        for (int i = 0; i < table.length; i++) {
-            if (table[i].getHead() != -1)
-                System.out.println(table[i].getHead());
-            if (table[i].getList() != null)
-                table[i].getList().print();
-        }
+        else if (table[hash].getList() != null)
+            return table[hash].getList().getNode(key) != null;
+        return false;
     }
 }
