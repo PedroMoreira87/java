@@ -139,7 +139,7 @@ public class BinaryTree {
         }return node;
     }
 
-    private int findSmallestValue(Node node) { // it searches the smallest smallest node of the soon inside the binary tree
+    private int findSmallestValue(Node node) { // it searches the smallest node of the soon inside the binary tree
         if (node.getLeft() == null) {
             return node.getData();
         }else {
